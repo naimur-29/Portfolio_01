@@ -31,22 +31,22 @@ navbarMobileMenu.addEventListener("click", () => {
     console.log(scrollPos);
 
     // ADD HIGHLIGHT CLASS TO NAVBAR MENU
-    if (scrollPos < 800) {
+    if (scrollPos < 700) {
       homeMenu.textContent = "✨Home✨";
       aboutMenu.textContent = "About";
       projectsMenu.textContent = "Projects";
       contactMenu.textContent = "Contact";
-    } else if (scrollPos > 800 && scrollPos < 1600) {
+    } else if (scrollPos > 700 && scrollPos < 1500) {
       homeMenu.textContent = "Home";
       aboutMenu.textContent = "✨About✨";
       projectsMenu.textContent = "Projects";
       contactMenu.textContent = "Contact";
-    } else if (scrollPos > 1600 && scrollPos < 2400) {
+    } else if (scrollPos > 1500 && scrollPos < 2300) {
       homeMenu.textContent = "Home";
       aboutMenu.textContent = "About";
       projectsMenu.textContent = "✨Projects✨";
       contactMenu.textContent = "Contact";
-    } else if (scrollPos > 2400) {
+    } else if (scrollPos > 2300) {
       homeMenu.textContent = "Home";
       aboutMenu.textContent = "About";
       projectsMenu.textContent = "Projects";
