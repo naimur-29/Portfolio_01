@@ -65,7 +65,7 @@
     <!-- BODY -->
     <main>
       <!-- HERO SECTION -->
-      <section class="hero">
+      <section class="hero" id="home">
         <div class="hero__container">
           <p class="hero__description">
             Hi, I'm <span class="hero__name">Naimur Rahman</span> I'm a
@@ -80,7 +80,7 @@
           <a href="#contact" class="main__button hero__button">Contact</a>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about">
         <div class="about__container">
           <div class="about__img__container">
             <canvas class="about__img__card"></canvas>
@@ -98,7 +98,7 @@
       </section>
 
       <!-- PROJECTS SECTION -->
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects__container">
           <h2>Projects</h2>
           <div class="projects__cards__container">
@@ -120,6 +120,87 @@
                 <h1>Random</h1>
               </div></a
             >
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact" id="contact">
+        <div class="contact__container">
+          <div class="contact__info">
+            <div>
+              <h2>Contact Info</h2>
+              <ul class="info">
+                <li>
+                  <span
+                    ><img
+                      src="assets/images/location-icon.png"
+                      alt="location icon"
+                  /></span>
+                  <span
+                    >Gazipur Sadar<br />Gazipur - 1700<br />Dhaka,
+                    Bangladesh</span
+                  >
+                </li>
+                <li>
+                  <span
+                    ><img src="assets/images/mail-icon.png" alt="main icon"
+                  /></span>
+                  <span>nrahman966@gmail.com</span>
+                </li>
+                <li>
+                  <span
+                    ><img src="assets/images/call-icon.png" alt="Phone icon"
+                  /></span>
+                  <span>+8801843024859</span>
+                </li>
+              </ul>
+            </div>
+            <ul class="social">
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/images/facebook-icon.png"
+                    alt="facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/images/linkedin-icon.png"
+                    alt="linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/github-icon.png" alt="github icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact__form">
+            <h2>Send a message</h2>
+            <div class="form__box">
+              <div class="input__box width__50">
+                <input type="text" required />
+                <span>First Name</span>
+              </div>
+              <div class="input__box width__50">
+                <input type="text" required />
+                <span>Last Name</span>
+              </div>
+              <div class="input__box width__100">
+                <input type="text" required />
+                <span>Email Address</span>
+              </div>
+              <div class="input__box width__100">
+                <textarea name="message" required></textarea>
+                <span>Write your message here...</span>
+              </div>
+              <div class="input__box width__100">
+                <input type="submit" value="Send" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
