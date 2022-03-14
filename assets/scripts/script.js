@@ -28,7 +28,6 @@ navbarMobileMenu.addEventListener("click", () => {
   window.addEventListener(event, () => {
     // GET SCROLL POSITION
     let scrollPos = window.scrollY;
-    console.log(scrollPos);
 
     // ADD HIGHLIGHT CLASS TO NAVBAR MENU
     if (scrollPos < 700) {
