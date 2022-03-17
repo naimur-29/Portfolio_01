@@ -1,4 +1,4 @@
-1. fix the responsive bug for bigger screens
+1. fix the responsive bug for bigger screens //done//
 
 2. fix preferred night mode bug
 

@@ -317,10 +317,17 @@ header {
   flex-direction: column;
   padding: 30px;
   margin: 0 auto;
-  margin-left: 40vh;
+  margin-left: auto;
   margin-top: -40px;
-  height: 90%;
+  max-height: 90%;
   max-width: 1400px;
+}
+
+@media (max-width: 2600px) {
+  .hero__container {
+    margin-left: 40vh;
+    height: 90%;
+  }
 }
 
 .hero__description {
@@ -1015,7 +1022,7 @@ header {
 }
 
 .projects__random::before {
-  background: url("../images/bg-random.jpg");
+  background: url("../images/bg-games.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
