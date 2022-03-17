@@ -1,0 +1,9 @@
+1. fix the responsive bug for bigger screens
+
+2. fix preferred night mode bug
+
+3. add more pics to that canvas particle effect
+
+4. add message functionality
+
+5. add projects pages...
