@@ -1,3 +1,3 @@
 # Portfolio
 
-[Visit](https://naimur29.netlify.app/){:target="_blank"}
+<a href="https://naimur29.netlify.app/" target="_blank">Visit</a>
