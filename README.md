@@ -1,6 +1,6 @@
 # [First Portfolio](https://www.naimur29.com/)
 
-![Project Image](readme-imgs/portfolio01.png)
+![Project Image](portfolio01.png)
 
 > This is my First Porfolio (unfinished)
 
