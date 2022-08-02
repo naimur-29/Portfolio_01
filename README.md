@@ -19,10 +19,10 @@ This is my first portfolio!! I had huge fun building this. I remember it literal
 Dev Goal: Build my first project ever...
 
 ### Packages: <br/>
-1.HTML & Vanilla CSS
+1. HTML & Vanilla CSS
 
 ### Some features of my project: <br />
-1.This site is responsive for mobile and Desktop. <br />
+1. This site is responsive for mobile and Desktop. <br />
 
 ---
 
